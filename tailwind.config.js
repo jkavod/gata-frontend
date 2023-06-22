@@ -18,6 +18,9 @@ export default {
       backgroundImage: {
         'backfiller' : "url('../../assets/backfiller.png')",
       },
+      screens: {
+        'sm': {'min': '640px', 'max': '1024px'},
+      },
     },
   },
   plugins: [],

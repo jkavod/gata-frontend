@@ -8,3 +8,7 @@
     --white-color: #FFFFFF;
     --dark-shade: #7373733D;
 }
+
+body {
+    overflow-x: hidden;
+}

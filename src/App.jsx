@@ -10,7 +10,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className='bg-dark text-white'>
+    <div className='bg-dark text-white' id='app'>
       <Head />
       <Body />
       <Features />

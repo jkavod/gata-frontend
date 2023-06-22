@@ -1,9 +1,6 @@
-body {
-    overflow-x: hidden;
-}
 
 #backfiller #left_backfiller {
-    width: 600px !important;
+    width: 600px;
     position: absolute;
     left: 0;
     z-index: -100;
@@ -28,4 +25,28 @@ body {
     margin-top: -250px;
     right: -200px;
     width: 350px;
+}
+
+@media (max-width: 1040px) {
+    #backfiller #right_backfiller, 
+    #backfiller #left_backfiller {
+        width: 300px;
+        margin-top: 150px;
+    }
+}
+
+@media (max-width: 464px) {
+    #backfiller #right_backfiller, 
+    #backfiller #left_backfiller {
+        width: 250px;
+        margin-top: 250px;
+    }
+}
+
+@media (max-width: 386px) {
+    #backfiller #right_backfiller, 
+    #backfiller #left_backfiller {
+        width: 200px;
+        margin-top: 200px;
+    }
 }

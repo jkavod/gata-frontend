@@ -458,7 +458,7 @@ export default function Example() {
 
                         {/* 3D Image */}
                         <div className="flex items-center justify-center gap-x-2">
-                            <img src={image} alt="" className='w-80' />
+                            <img src={image} alt="" className='w-80 ' />
                         </div>
 
                         <div className="flex items-center justify-center gap-x-6 w-full" >
@@ -466,13 +466,13 @@ export default function Example() {
                                 <a
                                     href="#"
                                     className="rounded-md bg-gold px-20 py-2.5 text-sm font-semibold text-dark shadow-sm hover:bg-gold-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                                >
+                                id='buy_n_sell'>
                                     Buy/Sell
                                 </a>
                             </div>
                         </div>
                         <div className="flex justify-center items-center" id='backfiller'>
-                            <img src={left_backfiller} alt="" className='absolute' id='left_backfiller' />
+                            <img src={left_backfiller} alt="" className='absolute sm:w-20' id='left_backfiller' />
                             <img src={right_backfiller} alt="" className='absolute' id='right_backfiller' />
                         </div>
                         <div className="mt-80 w-full">
