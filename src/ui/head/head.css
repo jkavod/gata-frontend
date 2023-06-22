@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 #backfiller #left_backfiller {
     width: 600px !important;
     position: absolute;

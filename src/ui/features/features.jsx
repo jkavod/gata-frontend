@@ -7,7 +7,7 @@ import star_backfiller from '../../assets/star_backfiller.png'
 const features = () => {
     return (
 
-        <div className="bg-dark h-full p-20">
+        <div className="bg-dark h-full p-20 overflow-hidden">
             <h1 className='text-gold font-bold text-center my-20 text-3xl'>KEY FEATURES</h1>
             <img src={star_backfiller} alt="" className='image' />
             <div className="features_card bg-dark w-full p-10">

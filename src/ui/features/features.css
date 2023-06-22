@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 .features_card {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

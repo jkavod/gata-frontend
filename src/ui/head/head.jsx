@@ -480,7 +480,7 @@ export default function Example() {
                         </div>
                     </div>
 
-                    <div className="text-center mt-20">
+                    <div className="text-center mt-20 overflow-hidden">
                         <img src={star_backfiller} alt="" className="left_img" />
                         <h1 className="text-2xl font-cursive font-bold tracking-tight text-gold sm:text-3xl uppercase">
                             unlock the potential of dcommerce
