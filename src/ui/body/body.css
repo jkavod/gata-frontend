@@ -1,0 +1,15 @@
+#section_background {
+    background: url(../../assets/section.png);
+    height: 1250px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#section_background .body_sec, 
+#section .body_sec {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 700;
+}

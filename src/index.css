@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --gold-color: #E8CE6A;
+    --dark-color: #333333;
+    --white-color: #FFFFFF;
+    --dark-shade: #7373733D;
+}

@@ -1,0 +1,74 @@
+.contact_container {
+    background: url(../../assets/globle.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    margin: auto;
+}
+
+.input {
+    margin-top: 100px;
+    width: 100%;
+    gap: 10px;
+    display: flex;
+    justify-content: space-around;
+    /* padding: 20px; */
+}
+
+.input input {
+    margin-top: 80px;
+    width: 40%;
+    padding: 25px;
+    background: var(--dark-shade);
+    backdrop-filter: blur(10.5px);
+    border-radius: 16px;
+}
+
+.input input:focus {
+    border: none;
+    outline: none;
+}
+
+.input_message {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.input_message > .message {
+    margin-top: 50px;
+    width: 90vw;
+    height: 300px;
+    padding: 20px;
+    top: 20px;
+    background: var(--dark-shade);
+    backdrop-filter: blur(10.5px);
+    border-radius: 16px;
+} 
+
+.input_message > .message:focus {
+    border: none;
+    outline: none;
+}
+
+.input_message > .message::placeholder {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+}
+
+.submit_btn {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.submit_btn > .submit {
+    padding: 15px 100px;
+    background: var(--gold-color);
+    font-weight: 900;
+    border-radius: 15px;
+}
+

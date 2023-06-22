@@ -1,0 +1,27 @@
+#backfiller #left_backfiller {
+    width: 600px !important;
+    position: absolute;
+    left: 0;
+    z-index: -100;
+}
+
+#backfiller #right_backfiller {
+    width: 600px;
+    position: absolute;
+    right: 0;
+    z-index: -100;
+}
+
+.left_img {
+    position: absolute;
+    margin-top: -200px;
+    left: -200px;
+    width: 350px;
+}
+
+.right_img {
+    position: absolute;
+    margin-top: -250px;
+    right: -200px;
+    width: 350px;
+}

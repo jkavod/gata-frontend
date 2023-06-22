@@ -1,0 +1,45 @@
+.features_card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 100px;
+}
+
+.card {
+    z-index: 100;
+}
+
+
+.icon_border {
+    border: 2px solid var(--gold-color);
+    border-radius: 100px;
+    margin: auto;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    color: var(--gold-color);
+    font-size: 20px;
+    background: var(--dark-color);
+    padding: 10px;
+    border-radius: 100px;
+}
+
+.image {
+    width: 500px;
+    position: absolute;
+    /* z-index: -1; */
+    left: -250px;
+    margin-top: -150px;
+}
+#image {
+    width: 500px;
+    position: absolute;
+    /* z-index: -1; */
+    right: -300px;
+    margin-top: -400px;
+}
