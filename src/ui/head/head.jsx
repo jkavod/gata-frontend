@@ -8,6 +8,7 @@ import {
     FingerPrintIcon,
     SquaresPlusIcon,
     XMarkIcon,
+    DocumentIcon
 } from '@heroicons/react/24/outline'
 import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
 import gata_logo from '../../assets/gata_logo.png'
@@ -20,23 +21,24 @@ import './head.css'
 import star_backfiller from '../../assets/star_backfiller.png'
 
 const economy = [
-    { name: 'Analytics', description: 'Get a better understanding of your traffic', href: '#', icon: ChartPieIcon },
+    { name: 'Analytics', description: 'Get a better understanding of GATA economy', href: '#', icon: ChartPieIcon },
 ]
 
 const community = [
-    { name: 'Engagement', description: 'Speak directly to your customers', href: '#', icon: CursorArrowRaysIcon },
+    { name: 'Engagement', description: 'Join the GATA Community', href: '#', icon: CursorArrowRaysIcon },
 ]
 
 const develop = [
-    { name: 'Security', description: 'Your customers’ data will be safe and secure', href: '#', icon: FingerPrintIcon },
+    { name: 'Security', description: 'Your data are safe and secure', href: '#', icon: FingerPrintIcon },
+    { name: 'Integrations', description: 'Connect with our third-party tools', href: '#', icon: SquaresPlusIcon },
 ]
 
 const token = [
-    { name: 'Integrations', description: 'Connect with third-party tools', href: '#', icon: SquaresPlusIcon },
+    { name: 'Token Documentation', description: 'Get to learn about Gata Blockchain', href: '#', icon: DocumentIcon },
 ]
 
 const more = [
-    { name: 'Automations', description: 'Build strategic funnels that will convert', href: '#', icon: ArrowPathIcon },
+    { name: 'Learn More', description: 'More on GATA protocol', href: '#', icon: ArrowPathIcon },
 ]
 
 function classNames(...classes) {
@@ -46,14 +48,16 @@ function classNames(...classes) {
 export default function Example() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
+    
+
     return (
         <div className="bg-dark">
             <header className="bg-dark">
-                <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8 text-white" aria-label="Global">
+                <nav className="mx-auto flex max-w-7xl items-center justify-between lg:px-8 text-white" aria-label="Global">
                     <div className="flex lg:flex-1">
-                        <a href="#" className="-m-1.5 p-1.5">
+                        <a href="#" className="-m-1.5 p-4">
                             <span className="sr-only">Gata Protocol</span>
-                            <img className="h-8 w-auto" src={gata_logo} alt="Gata logo" />
+                            <img className="h-12 w-32" src={gata_logo} alt="Gata logo" />
                         </a>
                     </div>
                     <div className="flex lg:hidden">
@@ -68,14 +72,14 @@ export default function Example() {
                     </div>
                     <Popover.Group className="hidden lg:flex lg:gap-x-12">
                         <Popover className="relative">
-                            <Popover.Button className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-white-900">
+                            <Popover.Button className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-white economy">
                                 Economy
                                 <ChevronDownIcon className="h-5 w-5 flex-none text-gray-400" aria-hidden="true" />
                             </Popover.Button>
 
                             <Transition
                                 as={Fragment}
-                                enter="transition ease-out duration-200"
+                                enter="transition ease-out duration-700"
                                 enterFrom="opacity-0 translate-y-1"
                                 enterTo="opacity-100 translate-y-0"
                                 leave="transition ease-in duration-150"
@@ -115,7 +119,7 @@ export default function Example() {
 
                             <Transition
                                 as={Fragment}
-                                enter="transition ease-out duration-200"
+                                enter="transition ease-out duration-700"
                                 enterFrom="opacity-0 translate-y-1"
                                 enterTo="opacity-100 translate-y-0"
                                 leave="transition ease-in duration-150"
@@ -155,7 +159,7 @@ export default function Example() {
 
                             <Transition
                                 as={Fragment}
-                                enter="transition ease-out duration-200"
+                                enter="transition ease-out duration-700"
                                 enterFrom="opacity-0 translate-y-1"
                                 enterTo="opacity-100 translate-y-0"
                                 leave="transition ease-in duration-150"
@@ -195,7 +199,7 @@ export default function Example() {
 
                             <Transition
                                 as={Fragment}
-                                enter="transition ease-out duration-200"
+                                enter="transition ease-out duration-700"
                                 enterFrom="opacity-0 translate-y-1"
                                 enterTo="opacity-100 translate-y-0"
                                 leave="transition ease-in duration-150"
@@ -235,7 +239,7 @@ export default function Example() {
 
                             <Transition
                                 as={Fragment}
-                                enter="transition ease-out duration-200"
+                                enter="transition ease-out duration-700"
                                 enterFrom="opacity-0 translate-y-1"
                                 enterTo="opacity-100 translate-y-0"
                                 leave="transition ease-in duration-150"
@@ -267,7 +271,7 @@ export default function Example() {
                         </Popover>
                     </Popover.Group>
                     <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-                        <a href="#" className="text-sm font-bold leading-6 text-dark bg-gold px-10 py-2 rounded-xl">
+                        <a href="#" className="text-sm font-bold leading-6 text-dark bg-gold px-10 py-2 rounded-xl" id='btn'>
                             Launch
                         </a>
                     </div>
@@ -446,10 +450,10 @@ export default function Example() {
                 </Dialog>
             </header>
 
-            <div className="relative isolate px-6 pt-14 lg:px-8">
+            <div className="relative isolate px-6 pt-14 lg:px-8 overflow-hidden">
                 <div className="mx-auto max-w-2l py-20 sm:py-10 lg:py-20">
                     <div className="text-center">
-                        <h1 className="text-2xl font-cursive font-bold tracking-tight text-gold sm:text-3xl uppercase">
+                        <h1 className="text-3xl font-cursive font-bold tracking-tight text-gold sm:text-3xl uppercase mt-20">
                             welcome to the future of dcommerce
                         </h1>
                         <p className="mt-4 text-lg leading-6 text-white text-2xl">
@@ -462,17 +466,17 @@ export default function Example() {
                         </div>
 
                         <div className="flex items-center justify-center gap-x-6 w-full" >
-                            <div className="p-3 border-2 border-gold p2 border-dotted rounded-md">
+                            <div className="p-3 border-2 border-gold p2 border-dotted rounded-md" id='buy_n_sell'>
                                 <a
                                     href="#"
-                                    className="rounded-md bg-gold px-20 py-2.5 text-sm font-semibold text-dark shadow-sm hover:bg-gold-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                                id='buy_n_sell'>
+                                    id='btn'
+                                    className="rounded-md bg-gold px-20 py-2.5 text-sm font-semibold text-dark shadow-sm hover:bg-gold-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
                                     Buy/Sell
                                 </a>
                             </div>
                         </div>
                         <div className="flex justify-center items-center" id='backfiller'>
-                            <img src={left_backfiller} alt="" className='absolute sm:w-20' id='left_backfiller' />
+                            <img src={left_backfiller} alt="" className='absolute' id='left_backfiller' />
                             <img src={right_backfiller} alt="" className='absolute' id='right_backfiller' />
                         </div>
                         <div className="mt-80 w-full">
@@ -481,7 +485,7 @@ export default function Example() {
                     </div>
 
                     <div className="text-center mt-20 overflow-hidden">
-                        <img src={star_backfiller} alt="" className="left_img" />
+                        <img src={star_backfiller} alt="" className="left_img" id='star_backfiller' />
                         <h1 className="text-2xl font-cursive font-bold tracking-tight text-gold sm:text-3xl uppercase">
                             unlock the potential of dcommerce
                         </h1>
@@ -498,13 +502,14 @@ export default function Example() {
                             <div className="p-3 border-2 border-gold p2 border-dotted rounded-md">
                                 <a
                                     href="#"
+                                    id='btn'
                                     className="rounded-md bg-gold px-20 py-2.5 text-sm font-bold capitalize text-dark shadow-sm hover:bg-gold-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                                 >
                                     discover our solutions
                                 </a>
                             </div>
                         </div>
-                        <img src={star_backfiller} alt="" className="right_img" />
+                        <img src={star_backfiller} alt="" className="right_img" id='star_backfiller' />
                     </div>
                 </div>
             </div>

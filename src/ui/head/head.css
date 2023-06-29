@@ -1,3 +1,16 @@
+header {
+    border-bottom: 1px solid var(--gold-color);
+    border-top: 1px solid var(--gold-color);
+    position: fixed;
+    width: 100%;
+    background: var(--dark-color);
+    z-index: 200;
+}
+
+.economy:active,
+.economy:hover {
+    border: none;
+}
 
 #backfiller #left_backfiller {
     width: 600px;
@@ -18,6 +31,7 @@
     margin-top: -200px;
     left: -200px;
     width: 350px;
+    animation: rotate 10s infinite linear;
 }
 
 .right_img {
@@ -25,7 +39,58 @@
     margin-top: -250px;
     right: -200px;
     width: 350px;
+    animation: rotate 10s infinite linear;
 }
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@property --angle {
+    syntax: '<angle>';
+    initial-value: 90deg;
+    inherits: true;
+  }
+  
+  @property --gradX {
+    syntax: '<percentage>';
+    initial-value: 50%;
+    inherits: true;
+  }
+  
+  @property --gradY {
+    syntax: '<percentage>';
+    initial-value: 0%;
+    inherits: true;
+  }
+
+  
+  #buy_n_sell {
+	font-size: 15px;
+    padding: 15px;
+    border-radius: 100px;
+	border: 5px dotted var(--gold-color);
+	border-image: conic-gradient(from var(--angle), var(--c2), var(--c1) 0.1turn, var(--c1) 0.15turn, var(--c2) 0.25turn) 30;
+	animation: borderRotate var(--d) linear infinite forwards;
+}
+
+#btn:hover {
+    opacity: .9;
+}
+
+@keyframes borderRotate {
+	100% {
+		--angle: 420deg;
+	}
+}
+  
+  
+  
 
 @media (max-width: 1040px) {
     #backfiller #right_backfiller, 

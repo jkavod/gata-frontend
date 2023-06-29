@@ -5,10 +5,14 @@
     gap: 100px;
 }
 
+
 .card {
     z-index: 100;
 }
 
+.card:hover {
+    opacity: .95;
+}
 
 .icon_border {
     border: 2px solid var(--gold-color);
@@ -35,13 +39,25 @@
     /* z-index: -1; */
     left: -250px;
     margin-top: -150px;
+    animation: rotate 10s infinite linear;
 }
+
 #image {
     width: 500px;
     position: absolute;
     /* z-index: -1; */
     right: -300px;
     margin-top: -400px;
+    animation: rotate 10s infinite linear;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 @media (max-width: 1023px) {

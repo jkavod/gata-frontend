@@ -13,3 +13,25 @@
     align-items: center;
     font-weight: 700;
 }
+
+.fly-in-right-element {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.fly-in-right-element.scroll-in {
+  opacity: .8;
+  transform: translateX(0);
+}
+
+.fly-in-left-element {
+  opacity: 0;
+  transform: translateX(100%);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.fly-in-left-element.scroll-in {
+  opacity: .8;
+  transform: translateX(0);
+}

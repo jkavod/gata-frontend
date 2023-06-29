@@ -7,6 +7,12 @@
     --dark-color: #333333;
     --white-color: #FFFFFF;
     --dark-shade: #7373733D;
+    --d: 2500ms;
+	--angle: 90deg;
+	--gradX: 100%;
+	--gradY: 50%;
+	--c1: rgba(232,206,106, 1);
+	--c2: rgba(232,206,106, 0.1);
 }
 
 body {
