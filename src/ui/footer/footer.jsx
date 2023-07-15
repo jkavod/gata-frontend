@@ -37,31 +37,31 @@ const footer = () => {
                     </div>
                 </div>
             </div>
-            <img src={line} alt="" className='px-20' />
-            <div className="socials">
-                <div className="social_link">
+            <img src={line} alt="" className='px-10' />
+            <div class="socials flex sm:justify-center">
+                <div class="social_link mx-2">
                     <a href="#">
-                        <FontAwesomeIcon icon={faLinkedinIn} className='social_icon' />
+                        <FontAwesomeIcon icon={faLinkedinIn} class='social_icon' />
                     </a>
                 </div>
-                <div className="social_link">
+                <div class="social_link mx-2">
                     <a href="#">
-                        <FontAwesomeIcon icon={faMedium} className='social_icon' />
+                        <FontAwesomeIcon icon={faMedium} class='social_icon' />
                     </a>
                 </div>
-                <div className="social_link">
+                <div class="social_link mx-2">
                     <a href="#">
-                        <FontAwesomeIcon icon={faTwitter} className='social_icon' />
+                        <FontAwesomeIcon icon={faTwitter} class='social_icon' />
                     </a>
                 </div>
-                <div className="social_link">
+                <div class="social_link mx-2">
                     <a href="#">
-                        <FontAwesomeIcon icon={faInstagram} className='social_icon' />
+                        <FontAwesomeIcon icon={faInstagram} class='social_icon' />
                     </a>
                 </div>
-                <div className="social_link">
+                <div class="social_link mx-2">
                     <a href="#">
-                        <FontAwesomeIcon icon={faDiscord} className='social_icon' />
+                        <FontAwesomeIcon icon={faDiscord} class='social_icon' />
                     </a>
                 </div>
             </div>

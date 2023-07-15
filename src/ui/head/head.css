@@ -3,6 +3,7 @@ header {
     border-top: 1px solid var(--gold-color);
     position: fixed;
     width: 100%;
+    left: 0;
     background: var(--dark-color);
     z-index: 200;
 }
@@ -12,14 +13,18 @@ header {
     border: none;
 }
 
-#backfiller #left_backfiller {
+#backfiller > #left_backfiller {
     width: 600px;
     position: absolute;
     left: 0;
     z-index: -100;
 }
 
-#backfiller #right_backfiller {
+.indx {
+    z-index: 100;
+}
+
+#backfiller > #right_backfiller {
     width: 600px;
     position: absolute;
     right: 0;
@@ -89,28 +94,38 @@ header {
 	}
 }
   
-  
+#btn {
+    z-index: 100;
+}
   
 
 @media (max-width: 1040px) {
-    #backfiller #right_backfiller, 
-    #backfiller #left_backfiller {
+    #backfiller > #right_backfiller, 
+    #backfiller > #left_backfiller {
         width: 300px;
         margin-top: 150px;
+    }
+
+    #header_nav {
+        width: 100%;
+    }
+
+    #nav {
+        overflow-x: hidden;
     }
 }
 
 @media (max-width: 464px) {
-    #backfiller #right_backfiller, 
-    #backfiller #left_backfiller {
+    #backfiller > #right_backfiller, 
+    #backfiller > #left_backfiller {
         width: 250px;
         margin-top: 250px;
     }
 }
 
 @media (max-width: 386px) {
-    #backfiller #right_backfiller, 
-    #backfiller #left_backfiller {
+    #backfiller > #right_backfiller, 
+    #backfiller > #left_backfiller {
         width: 200px;
         margin-top: 200px;
     }

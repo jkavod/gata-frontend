@@ -47,7 +47,7 @@
     position: absolute;
     /* z-index: -1; */
     right: -300px;
-    margin-top: -400px;
+    margin-top: 400px;
     animation: rotate 10s infinite linear;
 }
 
@@ -63,8 +63,41 @@
 @media (max-width: 1023px) {
     .features_card {
         display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        gap: 10px;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .card {
+       margin: 10px;
+    }
+
+    #star_img,
+    .star_img {
+        overflow-x: hidden;
+    }
+
+    #image,
+    .image {
+        display: none;
+    }
+
+    #features_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (min-width: 760px) {
+    .features_card {
+        display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
         gap: 10px;
+        justify-content: center;
+        width: 100%;
     }
 }

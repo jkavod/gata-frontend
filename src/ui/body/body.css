@@ -35,3 +35,23 @@
   opacity: .8;
   transform: translateX(0);
 }
+
+
+@media (max-width: 1231px) {
+  #fly-in-left-element {
+    display: none;
+    padding: 1px;
+  }
+
+  .p-28 {
+    padding: 30px !important;
+  }
+
+  #fly-in-right-element:nth-child(even) {
+    margin-top: -200px;
+  }
+
+  #fly-in-right-element:nth-child(odd) {
+    margin-top: 250px;
+  }
+}
