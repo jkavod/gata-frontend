@@ -278,7 +278,7 @@ export default function Example() {
                 </nav>
 
                 {/* Mobile Display */}
-                <Dialog as="div" className="lg:hidden overflow-hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
+                <Dialog as="div" className="lg:hidden sm:px-15 overflow-hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
                     <div className="fixed inset-0 z-10" />
                     <Dialog.Panel className="fixed inset-y-0 right-0 indx w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
                         <div className="flex items-center justify-between">
@@ -484,7 +484,7 @@ export default function Example() {
                         </div>
                     </div>
 
-                    <div className="text-center mt-20 overflow-hidden">
+                    <div className="text-center mt-20">
                         <img src={star_backfiller} alt="" className="left_img" id='star_backfiller' />
                         <h1 className="text-2xl font-cursive font-bold tracking-tight text-gold sm:text-3xl uppercase">
                             unlock the potential of dcommerce
@@ -498,18 +498,18 @@ export default function Example() {
                             <img src={solid_image} alt="" className='w-96' />
                         </div>
 
-                        <div className="flex items-center justify-center gap-x-6 w-full pb-20" >
+                        <div className="flex items-center justify-center sm:z-50 indx gap-x-6 w-full pb-20" >
                             <div className="p-3 border-2 border-gold p2 border-dotted rounded-md">
                                 <a
                                     href="#"
                                     id='btn'
-                                    className="rounded-md bg-gold px-20 py-2.5 text-sm font-bold capitalize text-dark shadow-sm hover:bg-gold-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                                    className="rounded-md bg-gold px-20 py-2.5 text-sm font-bold indx capitalize text-dark shadow-sm hover:bg-gold-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                                 >
                                     discover our solutions
                                 </a>
                             </div>
                         </div>
-                        <img src={star_backfiller} alt="" className="right_img" id='star_backfiller' />
+                        <img src={star_backfiller} alt="" className="right_img z-10" id='star_backfiller' />
                     </div>
                 </div>
             </div>

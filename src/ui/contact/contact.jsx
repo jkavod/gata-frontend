@@ -6,9 +6,9 @@ const contact = () => {
     return (
         <div className='contact_container bg-dark'>
             <div className="contact_contain">
+                {/* <img src={star_backfiller} alt="" className="left_img" id='mobile_star_backfiller' /> */}
                 <h1 className='text-4xl text-white text-center' id='h1'>Get in Touch <span className='font-bold'>With Us</span></h1>
                 <div className="fillers">
-                    {/* <img src={star_backfiller} alt="" className="left_img" id='mobile_star_backfiller' /> */}
                     <div className="input">
                         <input type="text" placeholder='Enter Your Name' />
                         <input type="text" placeholder='Enter Your Email Address' />
@@ -19,8 +19,8 @@ const contact = () => {
                     <div className="submit_btn">
                         <a href="#" className='submit text-dark'>Submit</a>
                     </div>
-                    {/* <img src={star_backfiller} alt="" className="rgt_img" id='mobile_star_backfiller' /> */}
                 </div>
+                {/* <img src={star_backfiller} alt="" className="rgt_img" id='mobile_star_backfiller' /> */}
             </div>
         </div>
     )

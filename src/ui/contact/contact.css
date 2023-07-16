@@ -95,4 +95,19 @@
         /* overflow-x: hidden; */
     }
 
+    /* .rgtt_img {
+        width: 100vw;
+        height: 400px;
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+        right: 0;
+        overflow-x: hidden;
+    }
+
+    .rgt_img {
+        animation: rotate 10s infinite linear;
+        width: 100%;
+        left: 400px;
+    } */
 }
