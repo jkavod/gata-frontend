@@ -98,6 +98,74 @@ header {
 #btn {
     z-index: 100;
 }
+
+.circles {
+    display: flex;
+}
+
+.circles .circle-1 {
+    position: absolute;
+    left: 201px;
+    margin-top: -44px;
+    background: var(--gold-color);
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    animation: blink 3s infinite;
+}
+.circles .circle-2 {
+    position: absolute;
+    left: 264px;
+    margin-top: -151px;
+    background: var(--gold-color);
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    animation: blink 3s infinite;
+}
+.circles .circle-3 {
+    position: absolute;
+    left: 452px;
+    margin-top: -116px;
+    background: var(--gold-color);
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    animation: blink 3s infinite;
+}
+.circles .circle-4 {
+    position: absolute;
+    left: 703px;
+    margin-top: -44px;
+    background: var(--gold-color);
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    animation: blink 3s infinite;
+}
+.circles .circle-5 {
+    position: absolute;
+    left: 1018px;
+    margin-top: -80px;
+    background: var(--gold-color);
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    animation: blink 3s infinite;
+}
+
+@keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
   
 
 @media (max-width: 1040px) {
@@ -113,6 +181,21 @@ header {
 
     #nav {
         overflow-x: hidden;
+    }
+
+    .circles .circle-1 {
+        margin-top: -20px;
+        left: 62px;
+        width: 20px;
+        height: 20px;
+
+    }
+    .circles .circle-2 {
+        margin-top: -55px;
+        left: 83px;
+        width: 20px;
+        height: 20px;
+
     }
 }
 

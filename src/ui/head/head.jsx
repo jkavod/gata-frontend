@@ -48,10 +48,10 @@ function classNames(...classes) {
 export default function Example() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
-    
+
 
     return (
-        <div className="bg-dark lg:px-8" id='head'>
+        <div className="bg-dark" id='head'>
             <header className="bg-dark sm:px-10 text-white" id='header_nav'>
                 <nav className="mx-auto flex max-w-7xl items-center justify-between lg:px-8 text-white" id='nav' aria-label="Global">
                     <div className="flex lg:flex-1">
@@ -450,10 +450,10 @@ export default function Example() {
                 </Dialog>
             </header>
 
-            <div className="relative isolate px-6 pt-14 lg:px-8 overflow-hidden">
-                <div className="mx-auto max-w-2l py-20 sm:py-10 lg:py-20">
+            <div className="relative isolate pt-14 overflow-x-hidden">
+                <div className=" max-w-2l py-20 sm:py-10 lg:py-20">
                     <div className="text-center">
-                        <h1 className="text-3xl font-cursive font-bold tracking-tight text-gold sm:text-3xl uppercase mt-20">
+                        <h1 className="text-3xl indx font-cursive font-bold tracking-tight text-gold sm:text-3xl uppercase mt-20">
                             welcome to the future of dcommerce
                         </h1>
                         <p className="mt-4 text-lg leading-6 text-white text-2xl">
@@ -481,11 +481,18 @@ export default function Example() {
                         </div>
                         <div className="mt-80 w-full">
                             <img src={divider} alt="" className='w-full' />
+                            <div className="circles">
+                                <span className='circle-1'></span>
+                                <span className='circle-2'></span>
+                                <span className='circle-3'></span>
+                                <span className='circle-4'></span>
+                                <span className='circle-5'></span>
+                            </div>
                         </div>
                     </div>
 
                     <div className="text-center mt-20">
-                        <img src={star_backfiller} alt="" className="left_img" id='star_backfiller' />
+                        <img src={star_backfiller} alt="" className="left_img sm:z-10 sm:w-20" id='star_backfiller' />
                         <h1 className="text-2xl font-cursive font-bold tracking-tight text-gold sm:text-3xl uppercase">
                             unlock the potential of dcommerce
                         </h1>
@@ -509,7 +516,7 @@ export default function Example() {
                                 </a>
                             </div>
                         </div>
-                        <img src={star_backfiller} alt="" className="right_img z-10" id='star_backfiller' />
+                        <img src={star_backfiller} alt="" className="right_img sm:z-10 sm:w-20 sm:mt-5" id='star_backfiller' />
                     </div>
                 </div>
             </div>

@@ -101,3 +101,14 @@
         width: 100%;
     }
 }
+
+@media (min-width: 900px) {
+    .features_card {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 10px;
+        justify-content: center;
+        width: 100%;
+    }
+}
