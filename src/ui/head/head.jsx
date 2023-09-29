@@ -456,7 +456,7 @@ export default function Example() {
                         <h1 className="text-3xl indx font-cursive font-bold tracking-tight text-gold sm:text-3xl uppercase mt-20">
                             welcome to the future of dcommerce
                         </h1>
-                        <p className="mt-4 text-lg leading-6 text-white text-2xl">
+                        <p className="mt-4 text-lg leading-6 text-white">
                             GATA Protocol Transforming eCommerce for Communities with blockchain, AI, AR and VR Technologies.
                         </p>
 
@@ -496,7 +496,7 @@ export default function Example() {
                         <h1 className="text-2xl font-cursive font-bold tracking-tight text-gold sm:text-3xl uppercase">
                             unlock the potential of dcommerce
                         </h1>
-                        <p className="mt-4 text-lg leading-6 text-white text-2xl capitalize">
+                        <p className="mt-4 text-lg leading-6 text-white capitalize">
                             embrace the future of shopping and readiness
                         </p>
 

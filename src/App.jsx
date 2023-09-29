@@ -1,21 +1,22 @@
-import { useState } from 'react'
-import './App.css'
+// import { useState } from 'react'
+
 import Head from './ui/head/head'
-import Body from './ui/body/body'
-import Features from './ui/features/features'
-import Contact from './ui/contact/contact'
-import Footer from './ui/footer/footer'
+// import Body from './ui/body/body'
+// import Features from './ui/features/features'
+// import Contact from './ui/contact/contact'
+// import Footer from './ui/footer/footer'
+import Navbar from './components/common/Navbar'
+import styles from './style'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <div className='bg-dark text-white' id='app'>
-      <Head />
-      <Body />
-      <Features />
-      <Contact />
-      <Footer />
+    <div className='bg-dark w-full overflow-hidden' >
+      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+        <div className={`${styles.boxWidth}`}>
+          <Navbar />
+        </div>
+      </div>
     </div>
   )
 }
