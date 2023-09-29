@@ -7,6 +7,7 @@ export default {
         dark: '#333333',
         gold: '#E8CE6A',
         white: '#FFFFFF',
+        dimWhite: 'rgba(255, 255, 255, 0.7)',
       },
       fontFamily: {
         cursive: ['Bruno Ace SC'],
@@ -25,5 +26,5 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [require('daisyui')],
 };

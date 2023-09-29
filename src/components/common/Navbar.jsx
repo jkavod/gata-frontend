@@ -12,11 +12,11 @@ const Navbar = () => {
     <nav className='w-full flex py-6 justify-between items-center navbar'>
       <img src={logo} alt='GATA Protocol' className='w-[163px] h-[64px] flex-shrink-0' />
 
-      <ul className='list-none md:flex hidden justify-end items-center flex-1'>
+      <ul className='list-none md:flex hidden justify-center items-center flex-1'>
         {navbarLinks.map((nav, index) => (
           <li
             key={nav.id}
-            className={`font-poppins font-bold uppercase cursor-pointer text-[16px] ${
+            className={`font-poppins font-bold cursor-pointer text-[16px] ${
               index === navbarLinks.length - 1 ? 'mr-0' : 'mr-10'
             } text-white`}
           >
