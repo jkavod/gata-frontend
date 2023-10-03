@@ -15,6 +15,7 @@ export default {
       },
       backgroundImage: {
         backfiller: "url('./src/assets/section.png')",
+        world: "url('./src/assets/globle.png')",
       },
       screens: {
         xs: '480px',
