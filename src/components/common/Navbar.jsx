@@ -1,12 +1,12 @@
-import React, { useState } from 'react'
-import { navbarLinks } from '../../utils/constants'
-import logo from '../../assets/gata_logo.png'
-import close from '../../assets/close.svg'
-import menu from '../../assets/menu.svg'
+import React, { useState } from 'react';
+import { navbarLinks } from '../../utils/constants';
+import logo from '../../assets/gata_logo.png';
+import close from '../../assets/close.svg';
+import menu from '../../assets/menu.svg';
 // import { Link } from 'react-router-dom'
 
 const Navbar = () => {
-    const [toggle, setToggle] = useState(false)
+  const [toggle, setToggle] = useState(false);
 
   return (
     <nav className='w-full flex py-6 justify-between items-center navbar'>
@@ -25,7 +25,9 @@ const Navbar = () => {
         ))}
       </ul>
 
-      <button className='btn bg-gold text-dark font-semibold px-[76px] py-[11px] ml-10 rounded-xl uppercase md:flex hidden'>Launch</button>
+      <button className='btn bg-gold text-dark font-semibold px-[76px] py-[11px] ml-10 rounded-xl uppercase md:flex hidden'>
+        Launch
+      </button>
 
       {/* mobile navbar view */}
 
@@ -54,14 +56,15 @@ const Navbar = () => {
               </li>
             ))}
             <li>
-            <button className='btn bg-gold text-dark font-semibold px-[76px] py-[11px] mt-5 rounded-xl uppercase'>Launch</button>
+              <button className='btn bg-gold text-dark font-semibold px-[76px] py-[11px] mt-5 rounded-xl uppercase'>
+                Launch
+              </button>
             </li>
           </ul>
-          
         </div>
       </div>
     </nav>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

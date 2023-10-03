@@ -50,19 +50,27 @@ export const keyFeatures = [
   {
     icon: cart,
     title: 'Efficient Delivery of Goods and Services',
-    content:
-      'We prioritize getting your products to your customers quickly and reliably.',
+    content: 'We prioritize getting your products to your customers quickly and reliably.',
   },
   {
     icon: alms,
     title: 'Cheaper Transaction Cost',
-    content:
-      'Save money on fees and commissions by using our decentralized platform.',
+    content: 'Save money on fees and commissions by using our decentralized platform.',
   },
   {
     icon: shield_check,
     title: 'Improve Bottom Line',
-    content:
-      'Streamlining processes and reducing costs can help your business thrive and grow.',
+    content: 'Streamlining processes and reducing costs can help your business thrive and grow.',
   },
+];
+
+export const WhyJoinHeaders = [
+  'Connect Globally',
+  'Advanced Security',
+  'Trusted Platforms',
+  'Seamless Logistics',
+  'Ownership & Control',
+  'Transparent Transactions',
+  'Empowering Individuals & Businessess',
+  'Decentralized & Decisive',
 ];
