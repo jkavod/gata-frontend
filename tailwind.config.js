@@ -14,7 +14,7 @@ export default {
         poppins: ['Poppins', 'sans-serif'],
       },
       backgroundImage: {
-        backfiller: "url('./src/assets/section.png')",
+        backfiller: "url('/section.png')",
         world: "url('./src/assets/globle.png')",
       },
       screens: {
