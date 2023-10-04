@@ -23,7 +23,7 @@ const ContactUs = () => {
             <textarea
               placeholder='Type your Message Here'
               rows={5}
-              className='textarea textarea-bordered w-full textarea-lg bg-[#737373] bg-opacity-20 text-white'
+              className='textarea textarea-bordered w-full textarea-lg bg-[#737373] bg-opacity-90 text-white'
             ></textarea>
           </div>
           <div className='text-center'>
@@ -41,7 +41,6 @@ const ContactUs = () => {
           Get in Touch <span className='font-bold'>With Us</span>
         </div>
         <div className='hero contact'>
-          <div className='bg-opacity-60'></div>
           <div className='hero-content text-neutral-content'>
             <div className=''>{form}</div>
           </div>

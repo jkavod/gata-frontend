@@ -1,5 +1,13 @@
 import React from 'react';
-import { FaLinkedinIn, FaTwitter, FaInstagram, FaDiscord } from 'react-icons/fa';
+import {
+  FaLinkedinIn,
+  FaTwitter,
+  FaInstagram,
+  FaDiscord,
+  FaFacebookF,
+  FaTiktok,
+  FaTelegram,
+} from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -30,23 +38,38 @@ const Footer = () => {
         <nav className='md:place-self-center md:justify-self-center'>
           <div className='grid grid-flow-col gap-4'>
             <div className='bg-dark btn btn-circle avatar mx-auto mt-8 p-2'>
-              <div className='w-14 rounded-full'>
+              <div className=' w-20 rounded-full'>
                 <FaLinkedinIn size={28} className='text-gold' />
               </div>
             </div>
             <div className='bg-dark btn btn-circle avatar mx-auto mt-8 p-2'>
-              <div className='w-14 rounded-full'>
+              <div className='w-20 rounded-full'>
                 <FaTwitter size={28} className='text-gold' />
               </div>
             </div>
             <div className='bg-dark btn btn-circle avatar mx-auto mt-8 p-2'>
-              <div className='w-14 rounded-full'>
+              <div className='w-20 rounded-full'>
                 <FaInstagram size={28} className='text-gold' />
               </div>
             </div>
             <div className='bg-dark btn btn-circle avatar mx-auto mt-8 p-2'>
-              <div className='w-14 rounded-full'>
+              <div className='w-20 rounded-full'>
                 <FaDiscord size={28} className='text-gold' />
+              </div>
+            </div>
+            <div className='bg-dark btn btn-circle avatar mx-auto mt-8 p-2'>
+              <div className='w-20 rounded-full'>
+                <FaFacebookF size={28} className='text-gold' />
+              </div>
+            </div>
+            <div className='bg-dark btn btn-circle avatar mx-auto mt-8 p-2'>
+              <div className='w-20 rounded-full'>
+                <FaTiktok size={28} className='text-gold' />
+              </div>
+            </div>
+            <div className='bg-dark btn btn-circle avatar mx-auto mt-8 p-2'>
+              <div className='w-20 rounded-full'>
+                <FaTelegram size={28} className='text-gold' />
               </div>
             </div>
           </div>

@@ -4,14 +4,18 @@ import logo from '../../assets/gata_logo.png';
 import close from '../../assets/close.svg';
 import menu from '../../assets/menu.svg';
 // import { Link } from 'react-router-dom'
-import { motion } from 'framer-motion'
+import { motion } from 'framer-motion';
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
     <nav className='w-full flex py-6 justify-between items-center navbar'>
-      <motion.div initial={{opacity:0, scale: 0.5}} animate={{opacity:1, scale:1}} transition={{duration:1.5}}>
+      <motion.div
+        initial={{ opacity: 0, scale: 0.5 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 1.5 }}
+      >
         <img src={logo} alt='GATA Protocol' className='w-[163px] h-[64px] flex-shrink-0' />
       </motion.div>
 

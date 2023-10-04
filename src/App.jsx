@@ -21,7 +21,7 @@ import gavel from './assets/gavel.png';
 import oculus from './assets/oculus.png';
 
 const gataSection1 = {
-  title1: 'GATA-CHAIN',
+  title1: 'GATACHAIN',
   content1:
     'Experience blockchain tailored for dcommerce, empowering businesses to effortlessly transact, streamline, supply chains and increase profitability through reduced cost and heightened transparency.',
   icon1: chains,

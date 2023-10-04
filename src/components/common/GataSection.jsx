@@ -1,7 +1,28 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import styles from '../../style';
+import { motion, useAnimation } from 'framer-motion';
+import { useInView } from 'react-intersection-observer'
 
 const GataSection = ({ title1, content1, icon1, title2, content2, icon2 }) => {
+  
+  const controls = useAnimation()
+  const [ref, inView] = useInView()
+
+  const controls2 = useAnimation()
+  const [ref2, inView2] = useInView()
+
+  useEffect(() => {
+    if(inView){
+      controls.start({x:0, opacity:1})
+    }
+  },[controls, inView])
+
+  useEffect(() => {
+    if(inView2){
+      controls2.start({x:0, opacity:1})
+    }
+  },[controls2, inView2])
+
   return (
     <section className=''>
       <section id='home' className={`flex sm:flex-row flex-col ${styles.paddingY}`}>
@@ -24,7 +45,7 @@ const GataSection = ({ title1, content1, icon1, title2, content2, icon2 }) => {
         </div>
 
         <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
-          <img src={icon1} alt={title1} className='w-96 h-96 relative z-[5]' />
+          <motion.img ref={ref}  initial={{opacity:0, x:300}} animate={controls} transition={{duration:1.5, repeatType:"mirror"}} src={icon1} alt={title1} className='w-96 h-96 relative z-[5]' />
         </div>
       </section>
 
@@ -42,7 +63,8 @@ const GataSection = ({ title1, content1, icon1, title2, content2, icon2 }) => {
         </div>
 
         <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
-          <img
+          <motion.img
+          ref={ref2}  initial={{opacity:0, x:-300}} animate={controls2} transition={{duration:1.5, repeatType:"mirror"}}
             src={icon2}
             alt={title2}
             className='sm:w-40 sm:h-40 md:w-96 md:h-96 relative z-[5]'

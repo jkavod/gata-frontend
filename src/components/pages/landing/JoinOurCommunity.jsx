@@ -25,7 +25,7 @@ const JoinOurCommunity = () => {
        alt="floater"
     />
         
-        <button className='btn bg-gold text-dark font-semibold px-10 py-[11px] ml-10 rounded-lg'>
+        <button className='btn bg-gold text-dark font-semibold px-16 py-[11px] rounded-lg'>
           Discover Our Solutions
         </button>
       </div>

@@ -11,7 +11,7 @@ const Graphics = () => {
           <img src={leftFiller} alt='Left_Filler' className='' />
         </div>
         <div className=''>
-          <button className='btn bg-gold text-dark font-semibold px-[76px] py-[11px] ml-10 rounded-xl uppercase'>
+          <button className='btn bg-gold text-dark font-semibold px-[76px] py-[11px] rounded-xl uppercase'>
             Buy/Sell
           </button>
         </div>
