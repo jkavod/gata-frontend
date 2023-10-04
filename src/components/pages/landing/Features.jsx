@@ -3,8 +3,7 @@ import { keyFeatures } from '../../../utils/constants';
 import { motion } from 'framer-motion';
 
 const Features = () => {
-
-  const scrollRef = useRef(null)
+  const scrollRef = useRef(null);
 
   return (
     <section className='my-10'>
@@ -20,7 +19,12 @@ const Features = () => {
           >
             <div className='bg-dark btn btn-circle avatar mx-auto mt-8 p-2'>
               <div ref={scrollRef} className='w-10 rounded-full'>
-                <motion.img initial={{opacity:0, scale:1}} animate={{opacity:1, rotate:[0,360]}} transition={{duration:2.5, repeat: Infinity}} src={feature.icon} />
+                <motion.img
+                  initial={{ opacity: 0, scale: 1 }}
+                  animate={{ opacity: 1, rotate: [0, 360] }}
+                  transition={{ duration: 2.5, repeat: Infinity }}
+                  src={feature.icon}
+                />
               </div>
             </div>
             <div className='card-body items-center text-center'>

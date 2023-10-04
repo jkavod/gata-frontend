@@ -12,7 +12,8 @@ const Hero = () => {
           </h1>
           <h1 className='text-center text-3xl uppercase font-cursive text-white'>Ecosystem</h1>
           <p className='font-poppins text-dimWhite'>
-            Ecosystem for buyers, sellers, and logistics <br /> partners in small, medium and large <br /> enterprises.
+            Ecosystem for buyers, sellers, and logistics <br /> partners in small, medium and large{' '}
+            <br /> enterprises.
           </p>
           <img src={global} className='mt-10 h-80' />
         </div>

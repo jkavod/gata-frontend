@@ -12,19 +12,19 @@ const JoinOurCommunity = () => {
         </h4>
         {/* <motion.img whileHover={{ scale: 1.2 }} src={solidImage} className='mt-0 h-60 w-60' alt='Solid Cube' animate={{scale: [1, 2, 2, 1, 1], rotate: [0, 0, 270, 270, 0], borderRadius: ["20%", "20%", "50%", "50%", "20%"],}} /> */}
         <motion.img
-      className='h-80 w-80'
-       initial={{ y: -15 }}
-       animate={{ y: 15 }}
-       transition={{
-         type: "smooth",
-         repeatType: "mirror",
-         duration: 2,
-         repeat: Infinity,
-       }}
-       src={solidImage}
-       alt="floater"
-    />
-        
+          className='h-80 w-80'
+          initial={{ y: -15 }}
+          animate={{ y: 15 }}
+          transition={{
+            type: 'smooth',
+            repeatType: 'mirror',
+            duration: 2,
+            repeat: Infinity,
+          }}
+          src={solidImage}
+          alt='floater'
+        />
+
         <button className='btn bg-gold text-dark font-semibold px-16 py-[11px] rounded-lg'>
           Discover Our Solutions
         </button>
