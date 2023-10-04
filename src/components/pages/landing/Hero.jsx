@@ -1,5 +1,6 @@
 import React from 'react';
 import global from '../../../assets/global.svg';
+// import { motion } from 'framer-motion';
 
 const Hero = () => {
   return (
@@ -14,7 +15,7 @@ const Hero = () => {
             Ecosystem For Buying, Selling And Logistics For Small, Medium And Large Businesses And{' '}
             <br /> Enterprise Using Advanced Technology
           </p>
-          <img src={global} className='mt-10 h-80' />
+              <img src={global} className='mt-10 h-80' />
         </div>
       </div>
     </div>
