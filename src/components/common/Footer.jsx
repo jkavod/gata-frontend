@@ -5,7 +5,6 @@ import {
   FaInstagram,
   FaDiscord,
   FaFacebookF,
-  FaTiktok,
   FaTelegram,
 } from 'react-icons/fa';
 
@@ -60,11 +59,6 @@ const Footer = () => {
             <div className='bg-dark btn btn-circle avatar mx-auto mt-8 p-2'>
               <div className='w-20 rounded-full'>
                 <FaFacebookF size={28} className='text-gold' />
-              </div>
-            </div>
-            <div className='bg-dark btn btn-circle avatar mx-auto mt-8 p-2'>
-              <div className='w-20 rounded-full'>
-                <FaTiktok size={28} className='text-gold' />
               </div>
             </div>
             <div className='bg-dark btn btn-circle avatar mx-auto mt-8 p-2'>
