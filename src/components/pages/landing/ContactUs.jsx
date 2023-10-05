@@ -1,5 +1,5 @@
 import React from 'react';
-import globe from '../../../assets/globle.png';
+// import globe from '../../../assets/globle.png';
 import './home.css';
 
 const ContactUs = () => {
