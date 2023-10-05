@@ -33,7 +33,7 @@ const GataSection = ({ title1, content1, icon1, title2, content2, icon2 }) => {
           </h1>
 
           <p
-            className={`font-poppins font-normal text-[18px] leading-[30.8px] text-black max-w-[470px] mt-5 sm:py-16 py-6`}
+            className={`font-poppins font-normal text-[18px] leading-[30.8px] md:text-[26px] text-black max-w-[470px] mt-5 sm:py-16 py-6`}
           >
             {content1}
           </p>
@@ -46,7 +46,7 @@ const GataSection = ({ title1, content1, icon1, title2, content2, icon2 }) => {
         <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
           <motion.img
             ref={ref}
-            initial={{ opacity: 0, x: 300 }}
+            initial={{ opacity: 0, x: -300 }}
             animate={controls}
             transition={{ duration: 1.5, repeatType: 'mirror' }}
             src={icon1}
@@ -62,7 +62,9 @@ const GataSection = ({ title1, content1, icon1, title2, content2, icon2 }) => {
             {title2}
           </h1>
 
-          <p className={`${styles.paragraph} max-w-[470px] mt-5 sm:py-16 py-6`}>{content2}</p>
+          <p className={`${styles.paragraph} md:text-[26px] max-w-[470px] mt-5 sm:py-16 py-6`}>
+            {content2}
+          </p>
 
           <div className='py-3'>
             <button className='btn bg-gold text-white px-16 py-3'>Learn More</button>
@@ -72,7 +74,7 @@ const GataSection = ({ title1, content1, icon1, title2, content2, icon2 }) => {
         <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
           <motion.img
             ref={ref2}
-            initial={{ opacity: 0, x: -300 }}
+            initial={{ opacity: 0, x: 300 }}
             animate={controls2}
             transition={{ duration: 1.5, repeatType: 'mirror' }}
             src={icon2}

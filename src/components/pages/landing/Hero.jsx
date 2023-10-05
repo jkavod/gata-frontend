@@ -4,7 +4,7 @@ import global from '../../../assets/global.svg';
 
 const Hero = () => {
   return (
-    <div className=''>
+    <div className='mt-40'>
       <div className='mt-10'>
         <div className='flex flex-col gap-4 text-center'>
           <h1 className='text-3xl font-bold uppercase font-cursive text-gold'>

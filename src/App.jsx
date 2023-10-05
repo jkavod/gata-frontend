@@ -57,7 +57,7 @@ function App() {
   return (
     <div className='bg-dark w-full overflow-hidden'>
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-        <div className={`${styles.boxWidth}`}>
+        <div className={`bg-dark fixed top-0 ${styles.boxWidth} z-10`}>
           <Navbar />
         </div>
       </div>

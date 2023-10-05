@@ -9,7 +9,7 @@ const GataCoin = () => {
 
   useEffect(() => {
     if (inView) {
-      controls.start({ opacity: 1, scale: [0.1, 1] });
+      controls.start({ opacity: 1, scale: [0.1, 1.5] });
     }
   }, [controls, inView]);
 
@@ -21,15 +21,16 @@ const GataCoin = () => {
             ref={ref}
             initial={{ opacity: 0, scale: 0.1 }}
             animate={controls}
-            transition={{ duration: 3 }}
+            transition={{ duration: 4 }}
             src={gataCoin}
-            className='h-96 w-96'
+            // className='h-[450px] w-[450px]'
           />
           <div>
             <h1 className='text-4xl font-bold text-gold uppercase'>
-              GATA Coin and Membership NFTs
+              GATA Coin and <br />
+              Membership NFTs
             </h1>
-            <p className='py-6'>
+            <p className='py-6 text-[18px] md:text-[26px]'>
               Seamlessly Conduct Transactions with GATA Coin and Unlock Exclusive Community Benefits
               with Membership NFTs.
             </p>

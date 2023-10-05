@@ -6,12 +6,12 @@ import divider from '../../../assets/divider.png';
 const Graphics = () => {
   return (
     <section>
-      <div className='my-10 flex justify-between'>
+      <div className='my-10 grid grid-cols-4'>
         <div>
           <img src={leftFiller} alt='Left_Filler' className='' />
         </div>
-        <div className=''>
-          <button className='btn bg-gold text-dark font-semibold px-[76px] py-[11px] rounded-xl uppercase'>
+        <div className='col-span-2'>
+          <button className='btn btn-lg btn-block bg-gold text-dark font-semibold px-[96px] py-[14px] rounded-xl uppercase'>
             Buy/Sell
           </button>
         </div>
