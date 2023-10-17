@@ -11,12 +11,12 @@ const ContactUs = () => {
             <input
               type='text'
               placeholder='Enter Your Name'
-              className='input input-bordered w-full bg-[#737373] bg-opacity-20 text-white'
+              className='input input-bordered w-full bg-[#737373] bg-opacity-90 text-white'
             />
             <input
               type='email'
               placeholder='Enter Your Email Address'
-              className='input input-bordered w-full bg-[#737373] bg-opacity-20 text-white'
+              className='input input-bordered w-full bg-[#737373] bg-opacity-90 text-white'
             />
           </div>
           <div className='grid grid-cols-1'>

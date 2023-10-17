@@ -12,8 +12,8 @@ const Navbar = () => {
   return (
     <nav className='w-full flex py-6 justify-between items-center navbar'>
       <motion.div
-        initial={{ opacity: 0, scale: 0.5 }}
-        animate={{ opacity: 1, scale: 1 }}
+        initial={{ opacity: 0, scale: 0.2 }}
+        animate={{ opacity: 1, scale: [1, 0.7] }}
         transition={{ duration: 1.5 }}
       >
         <img src={logo} alt='GATA Protocol' className='w-[163px] h-[64px] flex-shrink-0' />

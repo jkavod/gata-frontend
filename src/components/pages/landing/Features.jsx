@@ -15,7 +15,7 @@ const Features = () => {
         {keyFeatures.map((feature) => (
           <div
             key={feature.title}
-            className='card w-80 shadow-xl bg-white m-5 duration-200 hover:scale-105'
+            className='card w-80 h-96 shadow-xl bg-white m-5 duration-200 hover:scale-105'
           >
             <div className='bg-dark btn btn-circle avatar mx-auto mt-8 p-2'>
               <div ref={scrollRef} className='w-10 rounded-full'>

@@ -35,7 +35,7 @@ const Footer = () => {
       </footer>
 
       <footer className='bg-white p-8'>
-        <div class='flex flex-wrap justify-center'>
+        <div className='flex flex-wrap justify-center'>
           <div className='bg-dark btn btn-circle avatar mx-auto mt-8 p-2'>
             <div className=' w-20 rounded-full'>
               <FaLinkedinIn size={28} className='text-gold' />

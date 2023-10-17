@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import styles from '../../style';
+import styles, { layout } from '../../style';
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 
@@ -24,7 +24,7 @@ const GataSection = ({ title1, content1, icon1, title2, content2, icon2 }) => {
 
   return (
     <section className=''>
-      <section id='home' className={`flex sm:flex-row flex-col ${styles.paddingY}`}>
+      <section id='home' className={layout.sectionReverse}>
         <div
           className={`flex-1 ${styles.flexStart} ${styles.paddingY} flex-col xl:px-0 sm:px-16 px-6`}
         >
@@ -56,7 +56,7 @@ const GataSection = ({ title1, content1, icon1, title2, content2, icon2 }) => {
         </div>
       </section>
 
-      <section id='home' className={`flex md:flex-row flex-col ${styles.paddingY} mt-36`}>
+      <section id='home' className={`${layout.sectionReverse} mt-36`}>
         <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6 sm:py-16 py-6`}>
           <h1 className='font-poppins font-semibold text-5xl text-white w-full sm:py-16 py-6'>
             {title2}

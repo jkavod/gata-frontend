@@ -1,6 +1,6 @@
 import React from 'react';
 import { WhyJoinHeaders } from '../../../utils/constants';
-import arrow from '../../../assets/double_arrow.svg';
+// import arrow from '../../../assets/double_arrow.svg';
 
 const WhyGata = () => {
   return (
@@ -10,13 +10,11 @@ const WhyGata = () => {
         <br />
       </div>
       <div>
-        {WhyJoinHeaders.map((header, index) => (
-          <div
-            key={index}
-            className='flex justify-between m-4 bg-[#737373] bg-opacity-20 p-3 rounded-xl'
-          >
-            <h1 className='text-white font-light text-xl'>{header}</h1>
-            <img src={arrow} className='h-5 w-5' />
+        {WhyJoinHeaders.map((accordion, index) => (
+          <div key={index} className='collapse collapse-arrow bg-[#737373] bg-opacity-20 mb-4'>
+            <input type='radio' name='features-accordion' />
+            <div className='collapse-title text-white font-light text-xl'>{accordion.title}</div>
+            <div className='collapse-content text-dimWhite'>{accordion.content}</div>
           </div>
         ))}
       </div>
