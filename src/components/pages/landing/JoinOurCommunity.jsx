@@ -1,6 +1,7 @@
 import React from 'react';
 import solidImage from '../../../assets/solid_cube.svg';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 const JoinOurCommunity = () => {
   return (
@@ -25,9 +26,9 @@ const JoinOurCommunity = () => {
           alt='floater'
         />
 
-        <button className='btn bg-gold text-dark font-semibold px-16 py-[11px] rounded-lg'>
+        <Link to='/discover-solutions' className='btn bg-gold text-dark font-semibold px-16 py-[11px] rounded-lg'>
           Discover Our Solutions
-        </button>
+        </Link>
       </div>
     </section>
   );
