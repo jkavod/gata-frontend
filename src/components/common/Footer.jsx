@@ -11,7 +11,7 @@ import {
 const Footer = () => {
   return (
     <div>
-      <footer className='footer p-10 bg-white'>
+      <footer className='footer p-10 bg-white font-poppins'>
         <nav>
           <header className='text-gold font-bold uppercase text-lg'>Products</header>
           <a className='link link-hover'>Home</a>
