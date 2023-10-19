@@ -7,6 +7,7 @@ import { DiscoverOurSolutions } from './components/pages/solutions/DiscoverOurSo
 import { GataMarket } from './components/pages/gatamarket/GataMarket';
 import { GataNow } from './components/pages/gatanow/GataNow';
 import { GataGov } from './components/pages/gatagov/GataGov';
+import { GataTechnology } from './components/pages/gatatechnology/GataTechnology';
 
 import styles from './style';
 
@@ -26,6 +27,7 @@ function App() {
         <Route path='/gata-market' element={<GataMarket />} />
         <Route path='/gata-now' element={<GataNow />} />
         <Route path='/gata-governance' element={<GataGov />} />
+        <Route path='/gata-technology' element={<GataTechnology />} />
       </Routes>
       <Footer />
       </div>

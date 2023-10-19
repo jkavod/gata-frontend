@@ -56,7 +56,7 @@ const gataSection1 = {
     content2:
       'Immerse Yourself in Revolutionary Shopping Experiences Powered by AI, AR, and VR Technologies.',
     icon2: oculus,
-    path2: '/gata-ai-ar-vr'
+    path2: '/gata-technology'
   };
 
 const Home = () => {
