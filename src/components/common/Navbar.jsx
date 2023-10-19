@@ -3,7 +3,7 @@ import { navbarLinks } from '../../utils/constants';
 import logo from '../../assets/gata_logo.png';
 import close from '../../assets/close.svg';
 import menu from '../../assets/menu.svg';
-// import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion';
 
 const Navbar = () => {
@@ -16,7 +16,9 @@ const Navbar = () => {
         animate={{ opacity: 1, scale: [1, 0.7] }}
         transition={{ duration: 1.5 }}
       >
-        <img src={logo} alt='GATA Protocol' className='w-[163px] h-[64px] flex-shrink-0' />
+        <Link to='/'>
+          <img src={logo} alt='GATA Protocol' className='w-[163px] h-[64px] flex-shrink-0' />
+        </Link>
       </motion.div>
 
       <ul className='list-none md:flex hidden justify-center items-center flex-1'>

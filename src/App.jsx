@@ -5,6 +5,7 @@ import { Footer } from './components/common/Footer';
 import { Home } from './components/pages/landing/Home';
 import { DiscoverOurSolutions } from './components/pages/solutions/DiscoverOurSolutions';
 import { GataMarket } from './components/pages/gatamarket/GataMarket';
+import { GataNow } from './components/pages/gatanow/GataNow';
 
 import styles from './style';
 
@@ -22,6 +23,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/discover-solutions' element={<DiscoverOurSolutions />} />
         <Route path='/gata-market' element={<GataMarket />} />
+        <Route path='/gata-now' element={<GataNow />} />
       </Routes>
       <Footer />
       </div>
