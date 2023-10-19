@@ -25,10 +25,12 @@ const gataSection1 = {
     content1:
       'Experience blockchain tailored for dcommerce, empowering businesses to effortlessly transact, streamline, supply chains and increase profitability through reduced cost and heightened transparency.',
     icon1: chains,
+    path1: '/gata-chain',
     title2: 'GATAMARKET',
     content2:
       'Discover new way to securely shop online via a decentralized marketplace for buying, selling products and managing supply chains globally at reduced transaction cost.',
     icon2: shop,
+    path2: '/gata-market'
   };
   
   const gataSection2 = {
@@ -36,10 +38,12 @@ const gataSection1 = {
     content1:
       'Explore a next decentralized logistics and deliver system that seamlessly bridges sellers to buyers with enhanced efficiency and without the fear of losing goods and money.',
     icon1: truck,
+    path1: '/gata-now',
     title2: 'GATA BUSINESS NETWORK',
     content2:
       'Join an exclusive, member-only community that drives the dcommerce ecosystem forward, collaborate, network and govern alongside like-minded businesses.',
     icon2: handshake,
+    path2: '/gata-business'
   };
   
   const gataSection3 = {
@@ -47,10 +51,12 @@ const gataSection1 = {
     content1:
       'Empower yourself with GGOV, the decentralized application that puts the decision-making power into the hands of the community.',
     icon1: gavel,
+    path1: '/gata-governance',
     title2: 'AI, AR, AND VR IN DCOMMERCE',
     content2:
       'Immerse Yourself in Revolutionary Shopping Experiences Powered by AI, AR, and VR Technologies.',
     icon2: oculus,
+    path2: '/gata-ai-ar-vr'
   };
 
 const Home = () => {
@@ -75,9 +81,11 @@ const Home = () => {
             title1={gataSection1.title1}
             content1={gataSection1.content1}
             icon1={gataSection1.icon1}
+            path1={gataSection1.path1}
             title2={gataSection1.title2}
             content2={gataSection1.content2}
             icon2={gataSection1.icon2}
+            path2={gataSection1.path2}
           />
         </div>
       </div>
@@ -87,9 +95,11 @@ const Home = () => {
             title1={gataSection2.title1}
             content1={gataSection2.content1}
             icon1={gataSection2.icon1}
+            path1={gataSection2.path1}
             title2={gataSection2.title2}
             content2={gataSection2.content2}
             icon2={gataSection2.icon2}
+            path2={gataSection2.path2}
           />
         </div>
       </div>
@@ -99,9 +109,11 @@ const Home = () => {
             title1={gataSection3.title1}
             content1={gataSection3.content1}
             icon1={gataSection3.icon1}
+            path1={gataSection3.path1}
             title2={gataSection3.title2}
             content2={gataSection3.content2}
             icon2={gataSection3.icon2}
+            path2={gataSection3.path2}
           />
         </div>
       </div>

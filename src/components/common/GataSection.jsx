@@ -2,8 +2,9 @@ import React, { useEffect } from 'react';
 import styles, { layout } from '../../style';
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
+import { Link } from 'react-router-dom';
 
-const GataSection = ({ title1, content1, icon1, title2, content2, icon2 }) => {
+const GataSection = ({ title1, content1, icon1, path1, title2, content2, icon2, path2 }) => {
   const controls = useAnimation();
   const [ref, inView] = useInView();
 
@@ -39,7 +40,7 @@ const GataSection = ({ title1, content1, icon1, title2, content2, icon2 }) => {
           </p>
 
           <div className='py-3'>
-            <button className='btn bg-gold text-white px-16 py-3'>Learn More</button>
+            <Link to={path1} className='btn bg-gold text-white px-16 py-3'>Learn More</Link>
           </div>
         </div>
 
@@ -67,7 +68,7 @@ const GataSection = ({ title1, content1, icon1, title2, content2, icon2 }) => {
           </p>
 
           <div className='py-3'>
-            <button className='btn bg-gold text-white px-16 py-3'>Learn More</button>
+            <Link to={path2} className='btn bg-gold text-white px-16 py-3'>Learn More</Link>
           </div>
         </div>
 

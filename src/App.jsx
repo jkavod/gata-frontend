@@ -4,6 +4,7 @@ import Navbar from './components/common/Navbar';
 import { Footer } from './components/common/Footer';
 import { Home } from './components/pages/landing/Home';
 import { DiscoverOurSolutions } from './components/pages/solutions/DiscoverOurSolutions';
+import { GataMarket } from './components/pages/gatamarket/GataMarket';
 
 import styles from './style';
 
@@ -20,6 +21,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/discover-solutions' element={<DiscoverOurSolutions />} />
+        <Route path='/gata-market' element={<GataMarket />} />
       </Routes>
       <Footer />
       </div>
