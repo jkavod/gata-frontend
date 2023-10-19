@@ -8,6 +8,7 @@ import { GataMarket } from './components/pages/gatamarket/GataMarket';
 import { GataNow } from './components/pages/gatanow/GataNow';
 import { GataGov } from './components/pages/gatagov/GataGov';
 import { GataTechnology } from './components/pages/gatatechnology/GataTechnology';
+import { GataCoin } from './components/pages/gatacoin/GataCoin';
 
 import styles from './style';
 
@@ -28,6 +29,7 @@ function App() {
         <Route path='/gata-now' element={<GataNow />} />
         <Route path='/gata-governance' element={<GataGov />} />
         <Route path='/gata-technology' element={<GataTechnology />} />
+        <Route path='/gata-coin' element={<GataCoin />} />
       </Routes>
       <Footer />
       </div>

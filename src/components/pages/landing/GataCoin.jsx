@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import gataCoin from '../../../assets/coin.png';
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
+import { Link } from 'react-router-dom';
 
 const GataCoin = () => {
   const controls = useAnimation();
@@ -34,7 +35,7 @@ const GataCoin = () => {
               Seamlessly Conduct Transactions with GATA Coin and Unlock Exclusive Community Benefits
               with Membership NFTs.
             </p>
-            <button className='btn bg-gold text-white px-16 py-4'>Learn More</button>
+            <Link to='/gata-coin' className='btn bg-gold text-white px-16 py-4'>Learn More</Link>
           </div>
         </div>
       </div>
