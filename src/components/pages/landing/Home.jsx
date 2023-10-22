@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 import { Hero } from './Hero';
 import { Graphics } from './Graphics';
@@ -19,45 +19,44 @@ import oculus from '../../../assets/oculus.png';
 
 import styles from '../../../style';
 
-
 const gataSection1 = {
-    title1: 'GATACHAIN',
-    content1:
-      'Experience blockchain tailored for dcommerce, empowering businesses to effortlessly transact, streamline, supply chains and increase profitability through reduced cost and heightened transparency.',
-    icon1: chains,
-    path1: '/gata-chain',
-    title2: 'GATAMARKET',
-    content2:
-      'Discover new way to securely shop online via a decentralized marketplace for buying, selling products and managing supply chains globally at reduced transaction cost.',
-    icon2: shop,
-    path2: '/gata-market'
-  };
-  
-  const gataSection2 = {
-    title1: 'GATANOW',
-    content1:
-      'Explore a next decentralized logistics and deliver system that seamlessly bridges sellers to buyers with enhanced efficiency and without the fear of losing goods and money.',
-    icon1: truck,
-    path1: '/gata-now',
-    title2: 'GATA BUSINESS NETWORK',
-    content2:
-      'Join an exclusive, member-only community that drives the dcommerce ecosystem forward, collaborate, network and govern alongside like-minded businesses.',
-    icon2: handshake,
-    path2: '/gata-business'
-  };
-  
-  const gataSection3 = {
-    title1: 'GGOV: COMMUNITY GOVERNANCE',
-    content1:
-      'Empower yourself with GGOV, the decentralized application that puts the decision-making power into the hands of the community.',
-    icon1: gavel,
-    path1: '/gata-governance',
-    title2: 'AI, AR, AND VR IN DCOMMERCE',
-    content2:
-      'Immerse Yourself in Revolutionary Shopping Experiences Powered by AI, AR, and VR Technologies.',
-    icon2: oculus,
-    path2: '/gata-technology'
-  };
+  title1: 'GATACHAIN',
+  content1:
+    'Experience blockchain tailored for dcommerce, empowering businesses to effortlessly transact, streamline, supply chains and increase profitability through reduced cost and heightened transparency.',
+  icon1: chains,
+  path1: '/gata-chain',
+  title2: 'GATAMARKET',
+  content2:
+    'Discover new way to securely shop online via a decentralized marketplace for buying, selling products and managing supply chains globally at reduced transaction cost.',
+  icon2: shop,
+  path2: '/gata-market',
+};
+
+const gataSection2 = {
+  title1: 'GATANOW',
+  content1:
+    'Explore a next decentralized logistics and deliver system that seamlessly bridges sellers to buyers with enhanced efficiency and without the fear of losing goods and money.',
+  icon1: truck,
+  path1: '/gata-now',
+  title2: 'GATA BUSINESS NETWORK',
+  content2:
+    'Join an exclusive, member-only community that drives the dcommerce ecosystem forward, collaborate, network and govern alongside like-minded businesses.',
+  icon2: handshake,
+  path2: '/gata-business',
+};
+
+const gataSection3 = {
+  title1: 'GGOV: COMMUNITY GOVERNANCE',
+  content1:
+    'Empower yourself with GGOV, the decentralized application that puts the decision-making power into the hands of the community.',
+  icon1: gavel,
+  path1: '/gata-governance',
+  title2: 'AI, AR, AND VR IN DCOMMERCE',
+  content2:
+    'Immerse Yourself in Revolutionary Shopping Experiences Powered by AI, AR, and VR Technologies.',
+  icon2: oculus,
+  path2: '/gata-technology',
+};
 
 const Home = () => {
   return (
@@ -134,7 +133,7 @@ const Home = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export { Home }
+export { Home };

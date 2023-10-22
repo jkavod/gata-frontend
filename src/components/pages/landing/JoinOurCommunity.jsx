@@ -26,7 +26,10 @@ const JoinOurCommunity = () => {
           alt='floater'
         />
 
-        <Link to='/discover-solutions' className='btn bg-gold text-dark font-semibold px-16 py-[11px] rounded-lg'>
+        <Link
+          to='/discover-solutions'
+          className='btn bg-gold text-dark font-semibold px-16 py-[11px] rounded-lg'
+        >
           Discover Our Solutions
         </Link>
       </div>

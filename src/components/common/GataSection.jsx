@@ -40,7 +40,9 @@ const GataSection = ({ title1, content1, icon1, path1, title2, content2, icon2, 
           </p>
 
           <div className='py-3'>
-            <Link to={path1} className='btn bg-gold text-white px-16 py-3'>Learn More</Link>
+            <Link to={path1} className='btn bg-gold text-white px-16 py-3'>
+              Learn More
+            </Link>
           </div>
         </div>
 
@@ -68,7 +70,9 @@ const GataSection = ({ title1, content1, icon1, path1, title2, content2, icon2, 
           </p>
 
           <div className='py-3'>
-            <Link to={path2} className='btn bg-gold text-white px-16 py-3'>Learn More</Link>
+            <Link to={path2} className='btn bg-gold text-white px-16 py-3'>
+              Learn More
+            </Link>
           </div>
         </div>
 

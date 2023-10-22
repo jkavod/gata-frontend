@@ -35,7 +35,9 @@ const GataCoin = () => {
               Seamlessly Conduct Transactions with GATA Coin and Unlock Exclusive Community Benefits
               with Membership NFTs.
             </p>
-            <Link to='/gata-coin' className='btn bg-gold text-white px-16 py-4'>Learn More</Link>
+            <Link to='/gata-coin' className='btn bg-gold text-white px-16 py-4'>
+              Learn More
+            </Link>
           </div>
         </div>
       </div>

@@ -1,13 +1,19 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { navbarLinks } from '../../utils/constants';
 import logo from '../../assets/gata_logo.png';
 import close from '../../assets/close.svg';
 import menu from '../../assets/menu.svg';
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
+
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
 
   return (
     <nav className='w-full flex py-6 justify-between items-center navbar'>

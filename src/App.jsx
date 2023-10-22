@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import Navbar from './components/common/Navbar';
 import { Footer } from './components/common/Footer';
@@ -14,28 +14,27 @@ import { GataBusiness } from './components/pages/gatabusiness/GataBusiness';
 
 import styles from './style';
 
-
 function App() {
   return (
     <BrowserRouter>
       <div className='bg-dark w-full overflow-hidden'>
-      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-        <div className={`bg-dark fixed top-0 ${styles.boxWidth} z-10`}>
-          <Navbar />
+        <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+          <div className={`bg-dark fixed top-0 ${styles.boxWidth} z-10`}>
+            <Navbar />
+          </div>
         </div>
-      </div>
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/discover-solutions' element={<DiscoverOurSolutions />} />
-        <Route path='/gata-market' element={<GataMarket />} />
-        <Route path='/gata-now' element={<GataNow />} />
-        <Route path='/gata-governance' element={<GataGov />} />
-        <Route path='/gata-technology' element={<GataTechnology />} />
-        <Route path='/gata-coin' element={<GataCoin />} />
-        <Route path='/gata-chain' element={<GataChain />} />
-        <Route path='/gata-business' element={<GataBusiness />} />
-      </Routes>
-      <Footer />
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/discover-solutions' element={<DiscoverOurSolutions />} />
+          <Route path='/gata-market' element={<GataMarket />} />
+          <Route path='/gata-now' element={<GataNow />} />
+          <Route path='/gata-governance' element={<GataGov />} />
+          <Route path='/gata-technology' element={<GataTechnology />} />
+          <Route path='/gata-coin' element={<GataCoin />} />
+          <Route path='/gata-chain' element={<GataChain />} />
+          <Route path='/gata-business' element={<GataBusiness />} />
+        </Routes>
+        <Footer />
       </div>
     </BrowserRouter>
   );
