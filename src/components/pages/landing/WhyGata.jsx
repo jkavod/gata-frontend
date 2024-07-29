@@ -6,7 +6,7 @@ const WhyGata = () => {
   return (
     <div className='flex flex-col'>
       <div className='py-14'>
-        <h1 className='text-center text-gold font-cursive uppercase'>WHY JOIN GATA PROTOCOL</h1>
+        <h1 className='text-center text-gold font-cursive uppercase'>WHY JOIN THE GATA PROTOCOL?</h1>
         <br />
       </div>
       <div>

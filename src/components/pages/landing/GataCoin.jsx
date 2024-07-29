@@ -28,12 +28,11 @@ const GataCoin = () => {
           />
           <div>
             <h1 className='text-4xl font-bold text-gold uppercase'>
-              GATA Coin and <br />
-              Membership NFTs
+              GATA Tokenomics
             </h1>
             <p className='py-6 text-[18px] md:text-[26px]'>
-              Seamlessly Conduct Transactions with GATA Coin and Unlock Exclusive Community Benefits
-              with Membership NFTs.
+              Seamlessly Conduct Transactions with GATA Token and Unlock Exclusive Community Benefits
+              with --Membership NFTs.
             </p>
             <Link to='/gata-coin' className='btn bg-gold text-white px-16 py-4'>
               Learn More

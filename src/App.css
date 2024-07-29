@@ -1,0 +1,11 @@
+.crossed {
+    background: repeating-linear-gradient(
+        45deg,
+        #000,
+
+    ),
+    linear-gradient(
+        to bottom,
+        #000, #000
+    )
+}

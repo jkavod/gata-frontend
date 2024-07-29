@@ -8,8 +8,7 @@ const JoinOurCommunity = () => {
     <section>
       <div className='flex flex-col items-center mt-20'>
         <h4 className='text-gold font-cursive uppercase text-center md:text-2xl text-xl'>
-          Join our community where you can <br /> shop, sell and ship with confidence in a <br />{' '}
-          member-owned decentralized <br /> <span className='text-white'>Ecommerce solution</span>
+          Take control, <span className='text-white'>join our community</span>, <span className='text-white'>connect</span>, <span className='text-white'>buy</span>,<br /> <span className='text-white'>sell</span>, and <span className='text-white'>ship products</span> with confidence in an<br /> ecosystem where doing commerce online pays!
         </h4>
         {/* <motion.img whileHover={{ scale: 1.2 }} src={solidImage} className='mt-0 h-60 w-60' alt='Solid Cube' animate={{scale: [1, 2, 2, 1, 1], rotate: [0, 0, 270, 270, 0], borderRadius: ["20%", "20%", "50%", "50%", "20%"],}} /> */}
         <motion.img
@@ -30,7 +29,7 @@ const JoinOurCommunity = () => {
           to='/discover-solutions'
           className='btn bg-gold text-dark font-semibold px-16 py-[11px] rounded-lg'
         >
-          Discover Our Solutions
+          Our Framework
         </Link>
       </div>
     </section>

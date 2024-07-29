@@ -13,6 +13,7 @@ import { GataChain } from './components/pages/gatachain/GataChain';
 import { GataBusiness } from './components/pages/gatabusiness/GataBusiness';
 
 import styles from './style';
+import './App.css'
 
 function App() {
   return (

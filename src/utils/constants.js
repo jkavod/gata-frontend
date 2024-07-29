@@ -9,22 +9,129 @@ export const navbarLinks = [
   {
     id: 'economy',
     title: 'Economy',
+    menu: [
+      {
+        id: 'gata-community',
+        title: 'GATA Community',
+        menu: [
+          {
+            id: 'join-the-community',
+            title: 'Join The Community',
+            path: '/join',
+          },
+        ],
+      },
+      {
+        id: 'gata-market',
+        title: 'GATAMarket',
+        menu: [
+          {
+            id: 'sell-buy-products',
+            title: 'Sell/Buy Products',
+            path: '/sell-buy-products',
+          },
+        ],
+      },
+      {
+        id: 'gata-now',
+        title: 'GATANow',
+        menu: [
+          {
+            id: 'ship-track-package',
+            title: 'Ship/Track Package',
+            path: '/ship-track-package',
+          },
+        ],
+      },
+    ],
   },
   {
     id: 'tokens',
     title: 'Tokens',
+    menu: [
+      {
+        id: 'gata-membership-nfts',
+        title: 'GATA Membership NFTs',
+        menu: [
+          {
+            id: 'Get',
+            title: 'Get',
+            path: '/get-nft',
+          },
+        ],
+      },
+      {
+        id: 'gata-tokens',
+        title: 'GATA Token',
+        menu: [
+          {
+            id: 'buy-sell',
+            title: 'Buy/Sell',
+            path: '/buy-sell-token',
+          },
+        ],
+      },
+    ],
   },
   {
-    id: 'partnerships',
-    title: 'Partnerships',
+    id: 'resources',
+    title: 'Resources',
+    menu: [
+      {
+        id: 'roadmap',
+        title: 'Roadmap',
+        path: '/roadmap',
+      },
+      {
+        id: 'Documentations',
+        title: 'Documentations',
+        path: '/documentations',
+      },
+      {
+        id: 'latest-news',
+        title: 'Latest News',
+        path: '/latest-news',
+      },
+      {
+        id: 'blog',
+        title: 'Blog',
+        path: '/blog',
+      },
+    ],
   },
-  {
-    id: 'develop',
-    title: 'Develop',
-  },
+  // {
+  //   id: 'partnerships',
+  //   title: 'Partnerships',
+  // },
+  // {
+  //   id: 'develop',
+  //   title: 'Develop',
+  // },
   {
     id: 'more',
     title: 'More',
+    menu: [
+      {
+        id: 'about-us',
+        title: 'About Us',
+        path: '/about-us',
+      },
+      {
+        id: 'the-team',
+        title: 'The Team',
+        path: '/the-team',
+      },
+      {
+        id: 'our-partners',
+        title: 'Our Partners',
+        path: '/our-partners',
+      },
+      {
+        id: 'contact-us',
+        title: 'Contact Us',
+        path: '/contact-us',
+      },
+    ],
   },
 ];
 
@@ -37,31 +144,31 @@ export const keyFeatures = [
   },
   {
     icon: world,
-    title: 'Global Business Community Network',
+    title: 'Community Led Growth',
     content:
       'Connect with potential buyers and sellers from around the world, expanding your reach and opening up new opportunities for growth.',
   },
   {
     icon: shield,
-    title: 'Secured and Trusted Payment System',
+    title: 'Secured Payment',
     content:
       'Conduct transactions with confidence, knowing that your payments are secure and transparent.',
   },
-  {
-    icon: cart,
-    title: 'Efficient Delivery of Goods and Services',
-    content: 'We prioritize getting your products to your customers quickly and reliably.',
-  },
-  {
-    icon: alms,
-    title: 'Cheaper Transaction Cost',
-    content: 'Save money on fees and commissions by using our decentralized platform.',
-  },
-  {
-    icon: shield_check,
-    title: 'Improve Bottom Line',
-    content: 'Streamlining processes and reducing costs can help your business thrive and grow.',
-  },
+  // {
+  //   icon: cart,
+  //   title: 'Efficient Delivery of Goods and Services',
+  //   content: 'We prioritize getting your products to your customers quickly and reliably.',
+  // },
+  // {
+  //   icon: alms,
+  //   title: 'Cheaper Transaction Cost',
+  //   content: 'Save money on fees and commissions by using our decentralized platform.',
+  // },
+  // {
+  //   icon: shield_check,
+  //   title: 'Improve Bottom Line',
+  //   content: 'Streamlining processes and reducing costs can help your business thrive and grow.',
+  // },
 ];
 
 export const WhyJoinHeaders = [
